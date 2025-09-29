@@ -20,7 +20,7 @@ public class MonkeyTrouble {
         return aSmile == bSmile;
     }
 
-    // Optional: main() για δοκιμή
+    // Optional: main() for testing
     public static void main(String[] args) {
         MonkeyTrouble m = new MonkeyTrouble();
         System.out.println(m.monkeyTrouble(true, true));   // true

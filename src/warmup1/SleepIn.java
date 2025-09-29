@@ -21,7 +21,7 @@ public class SleepIn {
         return !weekday || vacation;
     }
 
-    // Optional: main() για δοκιμή
+    // Optional: main() for testing
     public static void main(String[] args) {
         SleepIn s = new SleepIn();
         System.out.println(s.sleepIn(false, false)); // true
