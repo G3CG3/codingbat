@@ -22,6 +22,7 @@ public class BiggerTwo {
         return sumA >= sumB ? a : b;
     }
 
+    // Optional: main() for testing
     public static void main(String[] args) {
         BiggerTwo bt = new BiggerTwo();
         int[] result1 = bt.biggerTwo(new int[]{1, 2}, new int[]{3, 4}); // {3, 4}
